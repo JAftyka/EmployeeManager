@@ -1,0 +1,3 @@
+enum Position {
+    PROGRAMISTA
+}
