@@ -51,4 +51,28 @@ public class Employee {
             throw new IllegalArgumentException("Invalid e-mail format"); 
         }
     }
+    
+    public String getFirstName() {
+        return this.firstName;
+    }
+
+    public String getLastName() {
+        return this.lastName;
+    }
+
+    public String getEmail() {
+        return this.email;
+    }
+
+    public String getCompany() {
+        return this.company;
+    }
+
+    public Position getPosition() {
+        return this.position;
+    }
+
+    public double getSalary() {
+        return this.salary;
+    }
 }
